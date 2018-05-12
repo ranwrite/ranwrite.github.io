@@ -1,0 +1,130 @@
+body {
+  font-size: 12px;
+}
+[data-dpr="2"] body {
+  font-size: 24px;
+}
+[data-dpr="3"] body {
+  font-size: 36px;
+}
+h1 {
+  font-size: 22px;
+}
+[data-dpr="2"] h1 {
+  font-size: 44px;
+}
+[data-dpr="3"] h1 {
+  font-size: 66px;
+}
+h2 {
+  font-size: 20px;
+}
+[data-dpr="2"] h2 {
+  font-size: 40px;
+}
+[data-dpr="3"] h2 {
+  font-size: 60px;
+}
+h3 {
+  font-size: 18px;
+}
+[data-dpr="2"] h3 {
+  font-size: 36px;
+}
+[data-dpr="3"] h3 {
+  font-size: 54px;
+}
+h4 {
+  font-size: 16px;
+}
+[data-dpr="2"] h4 {
+  font-size: 32px;
+}
+[data-dpr="3"] h4 {
+  font-size: 48px;
+}
+h5 {
+  font-size: 14px;
+  font-weight: normal;
+  color: #8f8f94;
+}
+[data-dpr="2"] h5 {
+  font-size: 28px;
+}
+[data-dpr="3"] h5 {
+  font-size: 42px;
+}
+h6 {
+  font-size: 12px;
+  font-weight: normal;
+  color: #8f8f94;
+}
+[data-dpr="2"] h6 {
+  font-size: 24px;
+}
+[data-dpr="3"] h6 {
+  font-size: 36px;
+}
+.radius-tit {
+  border-radius: 0.27rem;
+  background: #6a2072;
+  color: #fff;
+  padding: 0 0.27rem;
+  text-align: center;
+  line-height: 0.53rem;
+  display: inline-block;
+  width: 1.84rem;
+}
+.out-tit {
+  text-align: center;
+  padding: 0.2rem;
+}
+.in-join {
+  border: 1px solid #e5e5e5;
+  padding: 0.2rem;
+}
+[data-dpr="2"] .in-join {
+  border: 2px solid #e5e5e5;
+}
+[data-dpr="3"] .in-join {
+  border: 3px solid #e5e5e5;
+}
+.in-join.noborder {
+  border: none;
+}
+.student-join {
+  margin-bottom: 0.133rem;
+}
+.company-logo {
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin: 0.4rem 0 0.133rem;
+}
+.company-logo li {
+  width: 2.19rem;
+  height: 0.8rem;
+  margin-bottom: 0.27rem;
+  -webkit-box-shadow: 0.026rem 0.026rem 0.06rem #bbbbbb;
+  box-shadow: 0.026rem 0.026rem 0.06rem #bbbbbb;
+}
+.great-list li {
+  border-bottom: 1px dashed #e5e5e5;
+  padding: 0.4rem 0;
+}
+[data-dpr="2"] .great-list li {
+  border-bottom: 2px dashed #e5e5e5;
+}
+[data-dpr="3"] .great-list li {
+  border-bottom: 3px dashed #e5e5e5;
+}
+.great-list li:last-child {
+  border-bottom: none !important;
+}
+.great-list .out-tit {
+  text-align: left;
+}
+.great-list p.sub-info {
+  color: #6a2072;
+  font-weight: bold;
+}
