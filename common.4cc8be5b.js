@@ -98,7 +98,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({654:[function(require,module,exports) {
+})({644:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -128,7 +128,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],652:[function(require,module,exports) {
+},{}],642:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -159,13 +159,13 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":654}],372:[function(require,module,exports) {
+},{"./bundle-url":644}],362:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./..\\font\\iconfont.eot":638,"./..\\font\\iconfont.woff":640,"./..\\font\\iconfont.ttf":642,"./..\\font\\iconfont.svg":644,"_css_loader":652}],655:[function(require,module,exports) {
+},{"./..\\font\\iconfont.eot":628,"./..\\font\\iconfont.woff":630,"./..\\font\\iconfont.ttf":632,"./..\\font\\iconfont.svg":634,"_css_loader":642}],645:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -194,7 +194,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '52726' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '61808' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -335,7 +335,7 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}],656:[function(require,module,exports) {
+},{}],646:[function(require,module,exports) {
 var getBundleURL = require('./bundle-url').getBundleURL;
 
 function loadBundlesLazy(bundles) {
@@ -416,6 +416,6 @@ LazyPromise.prototype.catch = function (onError) {
   if (this.promise === null) this.promise = new Promise(this.executor);
   return this.promise.catch(onError);
 };
-},{"./bundle-url":654}],0:[function(require,module,exports) {
-var b=require(656);b.load([["iconfont.5f0c7ddc.eot",638],["iconfont.65788d0a.woff",640],["iconfont.628ea502.ttf",642],["iconfont.822b7d24.svg",644]]);
-},{}]},{},[655,0], null)
+},{"./bundle-url":644}],0:[function(require,module,exports) {
+var b=require(646);b.load([["iconfont.5f0c7ddc.eot",628],["iconfont.65788d0a.woff",630],["iconfont.628ea502.ttf",632],["iconfont.822b7d24.svg",634]]);
+},{}]},{},[645,0], null)
